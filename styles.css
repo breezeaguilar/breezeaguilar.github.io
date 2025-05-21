@@ -1,7 +1,52 @@
+body {
+    font-family: fantasy;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
 h1 {
     color: #ff008c;
     font-size: 100px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 10px; 
+}
+.parent-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: calc(100vh - 120px); 
+    position: relative; 
+}
+.container {
+    position: relative;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%;
+    height: 520px;
+}
+.resize {
+    width: 600px;
+    height: auto;
+}
+.resize-header {
+    width: 500px;
+    height: auto;
+}
+img {
+  padding: inherit;
+  margin:auto;
+  width: 200px;
+  display: block;
+}
+.center{
+    text-align: center;
 }
