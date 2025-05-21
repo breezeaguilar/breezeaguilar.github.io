@@ -11,6 +11,12 @@ body {
     align-items: center; 
     justify-content: center;
 }
+.header {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
 h1 {
     color: #ff008c;
     font-size: 100px;
@@ -34,11 +40,15 @@ h1 {
     height: 520px;
 }
 .resize {
-    width: 600px;
+    width: 525px;
     height: auto;
 }
 .resize-header {
     width: 500px;
+    height: auto;
+}
+.resize-aguilar {
+    width: 625px;
     height: auto;
 }
 img {
@@ -49,4 +59,17 @@ img {
 }
 .center{
     text-align: center;
+}
+button {
+    background-color: transparent;
+    border-color: transparent;
+    transition: transform 0.3s ease-in-out; 
+    display: block;
+}
+button:hover {
+    transform: scale(1.15); /* Expand on hover */
+}
+.img-size img {
+    width: 275px;
+    height: auto;
 }

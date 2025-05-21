@@ -8,14 +8,29 @@
 </head>
 <body>
     <div class="header">
-        <img class="resize-header" src="breeze.jpg">
-        <img class="resize-header" src="aguilar.jpg">
+            <img class="resize-header" src="breeze.png"><img class="resize-aguilar" src="aguilar.png">
     </div>
     <div class="parent-container">
-        <div class="container">
+        <div class="flex-container">
+            <button class="img-size" id="about-button" onclick="alert('about button clicked')">
+                <img src="about.png">
+            </button>
+            <button class="img-size" id="portfolio-button" onclick="alert('portfolio button clicked')">
+                <img src="portfolio.png">
+            </button>
+        </div>
+        <div class="flex-container">
             <p class="center">
                 <img class="resize" src="cover-photo.JPG"> 
             </p> 
+        </div>
+        <div class="flex-container">
+            <button class="img-size" id="contact-button" onclick="alert('contact button clicked')">
+                <img src="contact.png">
+            </button>
+            <button class="img-size" id="resume-button" onclick="alert('resume button clicked')">
+                <img src="resume.png">
+            </button>
         </div>
     </div>
 </body>
