@@ -1,5 +1,5 @@
 body {
-    font-family: fantasy;
+    font-family: monospace;
     background-image: url('background.jpg');
     background-size: cover;
     color: #333;
@@ -67,9 +67,16 @@ button {
     display: block;
 }
 button:hover {
-    transform: scale(1.15); /* Expand on hover */
+    transform: scale(1.1);
 }
 .img-size img {
     width: 275px;
     height: auto;
+}
+.footer-img-size img {
+    width: 30px;
+    height: auto;
+}
+footer {
+    display: flex;
 }
