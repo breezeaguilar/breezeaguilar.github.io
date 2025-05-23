@@ -11,6 +11,9 @@ body {
     align-items: center; 
     justify-content: center;
 }
+* {
+    cursor: url(cursor.png), auto;
+}
 .header {
     justify-content: space-around;
     align-items: center;
@@ -40,21 +43,25 @@ h1 {
     height: 520px;
 }
 .resize {
-    width: 525px;
+    max-width: 600px;
     height: auto;
 }
 .resize-header {
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 .resize-aguilar {
-    width: 625px;
+    max-width: 625px;
+    height: auto;
+}
+.resize-construction {
+    max-width: 400px;
     height: auto;
 }
 img {
   padding: inherit;
   margin:auto;
-  width: 200px;
+  max-width: 200px;
   display: block;
 }
 .center{
@@ -63,20 +70,38 @@ img {
 button {
     background-color: transparent;
     border-color: transparent;
-    transition: transform 0.3s ease-in-out; 
+    
     display: block;
 }
 button:hover {
     transform: scale(1.1);
 }
 .img-size img {
-    width: 275px;
+    max-width: 275px;
     height: auto;
 }
 .footer-img-size img {
-    width: 30px;
+    max-width: 35px;
     height: auto;
 }
 footer {
     display: flex;
+}
+.resize-contact-fun {
+    max-width: 475px;
+    height: auto;
+}
+.resize-mailto {
+    max-width: 400px;
+    height: auto;
+}
+.resize-home img {
+    max-width:55px;
+    height: auto;
+}
+.baby-flex {
+    display:flex;
+}
+.animate-contact:hover {
+    transform: scale(1.1);
 }
