@@ -15,7 +15,7 @@ body {
     cursor: url(cursor.png), auto;
 }
 .header {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -47,15 +47,19 @@ h1 {
     height: auto;
 }
 .resize-header {
-    max-width: 500px;
+    max-width: 30%;
     height: auto;
+    padding-left: 20%;
+    padding-right: 0%;
 }
 .resize-aguilar {
-    max-width: 625px;
+    max-width: 40%;
     height: auto;
+    padding-right: 20%;
+    padding-left: 0%;
 }
 .resize-construction {
-    max-width: 400px;
+    max-width: 30%;
     height: auto;
 }
 img {
@@ -70,7 +74,6 @@ img {
 button {
     background-color: transparent;
     border-color: transparent;
-    
     display: block;
 }
 button:hover {
