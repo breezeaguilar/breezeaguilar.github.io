@@ -1,7 +1,9 @@
 body {
     font-family: monospace;
     background-image: url('background.jpg');
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: #333;
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body {
     flex-direction: column; 
     align-items: center; 
     justify-content: center;
+    overflow: hidden;
 }
 * {
     cursor: url(cursor.png), auto;
@@ -40,7 +43,7 @@ h1 {
     justify-content: center; 
     align-items: center; 
     width: 80%;
-    height: 520px;
+    /* height: 520px; */
 }
 .resize {
     max-width: 600px;
@@ -49,17 +52,17 @@ h1 {
 .resize-header {
     max-width: 30%;
     height: auto;
-    padding-left: 20%;
+    padding-left: 15%;
     padding-right: 0%;
 }
 .resize-aguilar {
     max-width: 40%;
     height: auto;
-    padding-right: 20%;
+    padding-right: 15%;
     padding-left: 0%;
 }
 .resize-construction {
-    max-width: 30%;
+    max-width: 35%;
     height: auto;
 }
 img {
