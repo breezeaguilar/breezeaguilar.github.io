@@ -6,5 +6,5 @@ import react from '@vitejs/plugin-react'
 //   plugins: [react()],
 // })
 export default {
-  base: '/',
+  base: 'breezeaguilar.github.io',
 }
